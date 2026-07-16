@@ -1,31 +1,48 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: InferenceHub
+repo: status
 
+# What we actually promise customers: the gateway keeps serving, the portal and chat are
+# reachable, and the marketing site is up. /healthz is the gateway's own health contract,
+# so a green check = a live, serving build. /v1/models is auth-gated — a 401 still proves
+# the API edge + app are up (a down gateway can't emit its own auth error).
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: API gateway
+    url: https://app.inferencehub.tech/healthz
+    expectedStatusCodes:
+      - 200
+  - name: API surface (/v1)
+    url: https://app.inferencehub.tech/v1/models
+    expectedStatusCodes:
+      - 200
+      - 401
+  - name: Portal
+    url: https://app.inferencehub.tech/portal
+    expectedStatusCodes:
+      - 200
+  - name: Chat
+    url: https://chat.inferencehub.tech
+    expectedStatusCodes:
+      - 200
+  - name: Website
+    url: https://inferencehub.tech
+    expectedStatusCodes:
+      - 200
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # No custom domain yet — served from GitHub Pages at inferencehub.github.io/status.
+  # To move to status.inferencehub.tech later: add a CNAME DNS record pointing at
+  # inferencehub.github.io and replace baseUrl with `cname: status.inferencehub.tech`.
+  baseUrl: /status
+  logoUrl: https://raw.githubusercontent.com/InferenceHub/inferencehub-site/main/public/icon.svg
+  name: InferenceHub Status
+  introTitle: "**InferenceHub** status — live uptime and response times for every surface."
+  introMessage: Every check runs from public GitHub Actions and commits its result to [this repository](https://github.com/InferenceHub/status), so the history is independently auditable — nothing here is self-reported.
   navbar:
     - title: Status
       href: /
+    - title: InferenceHub
+      href: https://inferencehub.tech
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Defaults elsewhere: checks every 5 min, response-time graphs daily, issues opened on outage.
