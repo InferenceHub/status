@@ -1,7 +1,7 @@
 url: https://app.inferencehub.tech/v1/models
-status: down
-code: 502
-responseTime: 15175
-lastUpdated: 2026-08-10T05:43:11.573Z
+status: up
+code: 401
+responseTime: 49
+lastUpdated: 2026-08-10T06:55:03.922Z
 startTime: 2026-07-16T20:55:22.001Z
 generator: Upptime <https://github.com/upptime/upptime>
