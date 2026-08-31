@@ -29,10 +29,9 @@ sites:
       - 200
 
 status-website:
-  # No custom domain yet — served from GitHub Pages at inferencehub.github.io/status.
-  # To move to status.inferencehub.tech later: add a CNAME DNS record pointing at
-  # inferencehub.github.io and replace baseUrl with `cname: status.inferencehub.tech`.
-  baseUrl: /status
+  # Served at status.inferencehub.tech (CNAME DNS record → inferencehub.github.io);
+  # GitHub redirects the old inferencehub.github.io/status URL to the custom domain.
+  cname: status.inferencehub.tech
   logoUrl: https://raw.githubusercontent.com/InferenceHub/inferencehub-site/main/public/icon.svg
   name: InferenceHub Status
   introTitle: "**InferenceHub** status — live uptime and response times for every surface."
