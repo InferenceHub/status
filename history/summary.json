@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.83%",
     "uptimeYear": "99.89%",
-    "time": 483,
-    "timeDay": 175,
-    "timeWeek": 194,
-    "timeMonth": 637,
-    "timeYear": 483,
+    "time": 478,
+    "timeDay": 191,
+    "timeWeek": 207,
+    "timeMonth": 636,
+    "timeYear": 478,
     "dailyMinutesDown": {
       "2026-08-10": 73
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.84%",
     "uptimeYear": "99.89%",
-    "time": 414,
-    "timeDay": 134,
-    "timeWeek": 120,
-    "timeMonth": 562,
-    "timeYear": 414,
+    "time": 408,
+    "timeDay": 107,
+    "timeWeek": 126,
+    "timeMonth": 561,
+    "timeYear": 408,
     "dailyMinutesDown": {
       "2026-08-10": 72
     }
@@ -45,16 +45,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.inferencehub.tech.ico",
     "slug": "portal",
     "status": "up",
-    "uptime": "99.89%",
+    "uptime": "99.90%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.84%",
-    "uptimeYear": "99.89%",
-    "time": 417,
-    "timeDay": 128,
-    "timeWeek": 121,
-    "timeMonth": 563,
-    "timeYear": 417,
+    "uptimeYear": "99.90%",
+    "time": 411,
+    "timeDay": 108,
+    "timeWeek": 128,
+    "timeMonth": 562,
+    "timeYear": 411,
     "dailyMinutesDown": {
       "2026-08-10": 71
     }
@@ -71,9 +71,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 252,
-    "timeDay": 279,
-    "timeWeek": 264,
-    "timeMonth": 258,
+    "timeDay": 248,
+    "timeWeek": 265,
+    "timeMonth": 256,
     "timeYear": 252,
     "dailyMinutesDown": {}
   },
@@ -89,9 +89,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 228,
-    "timeDay": 248,
-    "timeWeek": 256,
-    "timeMonth": 232,
+    "timeDay": 214,
+    "timeWeek": 263,
+    "timeMonth": 230,
     "timeYear": 228,
     "dailyMinutesDown": {}
   }
