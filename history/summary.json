@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.91%",
-    "time": 423,
-    "timeDay": 168,
-    "timeWeek": 153,
-    "timeMonth": 193,
-    "timeYear": 423,
+    "time": 418,
+    "timeDay": 81,
+    "timeWeek": 129,
+    "timeMonth": 190,
+    "timeYear": 418,
     "dailyMinutesDown": {
       "2026-08-10": 73
     }
@@ -25,16 +25,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.inferencehub.tech.ico",
     "slug": "api-surface-v1",
     "status": "up",
-    "uptime": "99.91%",
+    "uptime": "99.92%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "99.91%",
-    "time": 358,
-    "timeDay": 120,
-    "timeWeek": 102,
-    "timeMonth": 116,
-    "timeYear": 358,
+    "uptimeYear": "99.92%",
+    "time": 353,
+    "timeDay": 55,
+    "timeWeek": 91,
+    "timeMonth": 114,
+    "timeYear": 353,
     "dailyMinutesDown": {
       "2026-08-10": 72
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.92%",
-    "time": 360,
-    "timeDay": 106,
-    "timeWeek": 112,
-    "timeMonth": 117,
-    "timeYear": 360,
+    "time": 356,
+    "timeDay": 54,
+    "timeWeek": 100,
+    "timeMonth": 115,
+    "timeYear": 356,
     "dailyMinutesDown": {
       "2026-08-10": 71
     }
@@ -70,11 +70,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 257,
-    "timeDay": 371,
-    "timeWeek": 279,
-    "timeMonth": 259,
-    "timeYear": 257,
+    "time": 255,
+    "timeDay": 141,
+    "timeWeek": 259,
+    "timeMonth": 256,
+    "timeYear": 255,
     "dailyMinutesDown": {}
   },
   {
@@ -88,11 +88,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 226,
-    "timeDay": 221,
-    "timeWeek": 187,
-    "timeMonth": 220,
-    "timeYear": 226,
+    "time": 224,
+    "timeDay": 112,
+    "timeWeek": 159,
+    "timeMonth": 218,
+    "timeYear": 224,
     "dailyMinutesDown": {}
   }
 ]
